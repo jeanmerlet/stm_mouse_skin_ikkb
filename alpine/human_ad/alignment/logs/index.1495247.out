@@ -1,0 +1,22 @@
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@batch2>
+Subject: Job 1495247: <STAR_index_GRCh38> in cluster <summit> Exited
+
+Job <STAR_index_GRCh38> was submitted from host <login2> by user <jmerlet> in cluster <summit> at Wed Oct  6 15:27:40 2021
+Job was executed on host(s) <1*batch2>, in queue <batch>, as user <jmerlet> in cluster <summit> at Wed Oct  6 15:29:02 2021
+                            <42*h37n17>
+</ccs/home/jmerlet> was used as the home directory.
+</gpfs/alpine/syb105/proj-shared/Personal/jmerlet/projects/mouse/scripts/human_ad/alignment> was used as the working directory.
+Started at Wed Oct  6 15:29:02 2021
+Terminated at Wed Oct  6 15:30:51 2021
+Results reported at Wed Oct  6 15:30:51 2021
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <./logs/index.1495247.err> for stderr output of this job.
+

@@ -1,0 +1,180 @@
+	/gpfs/alpine/syb105/proj-shared/Personal/jmerlet/rna-seq_tools/alignment/andes/STAR-2.7.9a/source/STAR --runThreadN 21 --genomeDir /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/rna-seq_tools/alignment/ref_gens/human/GRCh38/star_index_2.7.9a --soloType CB_UMI_Simple --soloCBwhitelist /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/rna-seq_tools/alignment/bc_wl/737K-august-2016.txt --outFileNamePrefix /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/projects/mouse/data/human_ad/he/fastq/aligned/SRR11396173_1._ --readFilesIn /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/projects/mouse/data/human_ad/he/fastq/SRR11396173_2.fastq.gz /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/projects/mouse/data/human_ad/he/fastq/SRR11396173_1.fastq.gz --soloUMIfiltering MultiGeneUMI --readFilesCommand zcat
+	STAR version: 2.7.9a   compiled: 2021-09-03T13:33:43-04:00 andes-login4.olcf.ornl.gov:/gpfs/alpine/syb105/proj-shared/Personal/jmerlet/rna-seq_tools/alignment/andes/STAR-2.7.9a/source
+Sep 03 19:53:33 ..... started STAR run
+Sep 03 19:53:34 ..... loading genome
+	/gpfs/alpine/syb105/proj-shared/Personal/jmerlet/rna-seq_tools/alignment/andes/STAR-2.7.9a/source/STAR --runThreadN 21 --genomeDir /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/rna-seq_tools/alignment/ref_gens/human/GRCh38/star_index_2.7.9a --soloType CB_UMI_Simple --soloCBwhitelist /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/rna-seq_tools/alignment/bc_wl/737K-august-2016.txt --outFileNamePrefix /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/projects/mouse/data/human_ad/he/fastq/aligned/SRR11396171_1._ --readFilesIn /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/projects/mouse/data/human_ad/he/fastq/SRR11396171_2.fastq.gz /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/projects/mouse/data/human_ad/he/fastq/SRR11396171_1.fastq.gz --soloUMIfiltering MultiGeneUMI --readFilesCommand zcat
+	STAR version: 2.7.9a   compiled: 2021-09-03T13:33:43-04:00 andes-login4.olcf.ornl.gov:/gpfs/alpine/syb105/proj-shared/Personal/jmerlet/rna-seq_tools/alignment/andes/STAR-2.7.9a/source
+	/gpfs/alpine/syb105/proj-shared/Personal/jmerlet/rna-seq_tools/alignment/andes/STAR-2.7.9a/source/STAR --runThreadN 21 --genomeDir /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/rna-seq_tools/alignment/ref_gens/human/GRCh38/star_index_2.7.9a --soloType CB_UMI_Simple --soloCBwhitelist /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/rna-seq_tools/alignment/bc_wl/737K-august-2016.txt --outFileNamePrefix /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/projects/mouse/data/human_ad/he/fastq/aligned/SRR11396166_1._ --readFilesIn /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/projects/mouse/data/human_ad/he/fastq/SRR11396166_2.fastq.gz /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/projects/mouse/data/human_ad/he/fastq/SRR11396166_1.fastq.gz --soloUMIfiltering MultiGeneUMI --readFilesCommand zcat
+	STAR version: 2.7.9a   compiled: 2021-09-03T13:33:43-04:00 andes-login4.olcf.ornl.gov:/gpfs/alpine/syb105/proj-shared/Personal/jmerlet/rna-seq_tools/alignment/andes/STAR-2.7.9a/source
+Sep 03 19:53:33 ..... started STAR run
+Sep 03 19:53:34 ..... loading genome
+	/gpfs/alpine/syb105/proj-shared/Personal/jmerlet/rna-seq_tools/alignment/andes/STAR-2.7.9a/source/STAR --runThreadN 21 --genomeDir /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/rna-seq_tools/alignment/ref_gens/human/GRCh38/star_index_2.7.9a --soloType CB_UMI_Simple --soloCBwhitelist /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/rna-seq_tools/alignment/bc_wl/737K-august-2016.txt --outFileNamePrefix /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/projects/mouse/data/human_ad/he/fastq/aligned/SRR11396159_1._ --readFilesIn /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/projects/mouse/data/human_ad/he/fastq/SRR11396159_2.fastq.gz /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/projects/mouse/data/human_ad/he/fastq/SRR11396159_1.fastq.gz --soloUMIfiltering MultiGeneUMI --readFilesCommand zcat
+	STAR version: 2.7.9a   compiled: 2021-09-03T13:33:43-04:00 andes-login4.olcf.ornl.gov:/gpfs/alpine/syb105/proj-shared/Personal/jmerlet/rna-seq_tools/alignment/andes/STAR-2.7.9a/source
+Sep 03 19:53:33 ..... started STAR run
+Sep 03 19:53:34 ..... loading genome
+	/gpfs/alpine/syb105/proj-shared/Personal/jmerlet/rna-seq_tools/alignment/andes/STAR-2.7.9a/source/STAR --runThreadN 21 --genomeDir /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/rna-seq_tools/alignment/ref_gens/human/GRCh38/star_index_2.7.9a --soloType CB_UMI_Simple --soloCBwhitelist /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/rna-seq_tools/alignment/bc_wl/737K-august-2016.txt --outFileNamePrefix /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/projects/mouse/data/human_ad/he/fastq/aligned/SRR11396163_1._ --readFilesIn /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/projects/mouse/data/human_ad/he/fastq/SRR11396163_2.fastq.gz /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/projects/mouse/data/human_ad/he/fastq/SRR11396163_1.fastq.gz --soloUMIfiltering MultiGeneUMI --readFilesCommand zcat
+	STAR version: 2.7.9a   compiled: 2021-09-03T13:33:43-04:00 andes-login4.olcf.ornl.gov:/gpfs/alpine/syb105/proj-shared/Personal/jmerlet/rna-seq_tools/alignment/andes/STAR-2.7.9a/source
+	/gpfs/alpine/syb105/proj-shared/Personal/jmerlet/rna-seq_tools/alignment/andes/STAR-2.7.9a/source/STAR --runThreadN 21 --genomeDir /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/rna-seq_tools/alignment/ref_gens/human/GRCh38/star_index_2.7.9a --soloType CB_UMI_Simple --soloCBwhitelist /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/rna-seq_tools/alignment/bc_wl/737K-august-2016.txt --outFileNamePrefix /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/projects/mouse/data/human_ad/he/fastq/aligned/SRR11396162_1._ --readFilesIn /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/projects/mouse/data/human_ad/he/fastq/SRR11396162_2.fastq.gz /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/projects/mouse/data/human_ad/he/fastq/SRR11396162_1.fastq.gz --soloUMIfiltering MultiGeneUMI --readFilesCommand zcat
+	STAR version: 2.7.9a   compiled: 2021-09-03T13:33:43-04:00 andes-login4.olcf.ornl.gov:/gpfs/alpine/syb105/proj-shared/Personal/jmerlet/rna-seq_tools/alignment/andes/STAR-2.7.9a/source
+	/gpfs/alpine/syb105/proj-shared/Personal/jmerlet/rna-seq_tools/alignment/andes/STAR-2.7.9a/source/STAR --runThreadN 21 --genomeDir /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/rna-seq_tools/alignment/ref_gens/human/GRCh38/star_index_2.7.9a --soloType CB_UMI_Simple --soloCBwhitelist /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/rna-seq_tools/alignment/bc_wl/737K-august-2016.txt --outFileNamePrefix /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/projects/mouse/data/human_ad/he/fastq/aligned/SRR11396175_1._ --readFilesIn /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/projects/mouse/data/human_ad/he/fastq/SRR11396175_2.fastq.gz /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/projects/mouse/data/human_ad/he/fastq/SRR11396175_1.fastq.gz --soloUMIfiltering MultiGeneUMI --readFilesCommand zcat
+	STAR version: 2.7.9a   compiled: 2021-09-03T13:33:43-04:00 andes-login4.olcf.ornl.gov:/gpfs/alpine/syb105/proj-shared/Personal/jmerlet/rna-seq_tools/alignment/andes/STAR-2.7.9a/source
+Sep 03 19:53:33 ..... started STAR run
+Sep 03 19:53:34 ..... loading genome
+	/gpfs/alpine/syb105/proj-shared/Personal/jmerlet/rna-seq_tools/alignment/andes/STAR-2.7.9a/source/STAR --runThreadN 21 --genomeDir /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/rna-seq_tools/alignment/ref_gens/human/GRCh38/star_index_2.7.9a --soloType CB_UMI_Simple --soloCBwhitelist /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/rna-seq_tools/alignment/bc_wl/737K-august-2016.txt --outFileNamePrefix /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/projects/mouse/data/human_ad/he/fastq/aligned/SRR11396160_1._ --readFilesIn /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/projects/mouse/data/human_ad/he/fastq/SRR11396160_2.fastq.gz /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/projects/mouse/data/human_ad/he/fastq/SRR11396160_1.fastq.gz --soloUMIfiltering MultiGeneUMI --readFilesCommand zcat
+	STAR version: 2.7.9a   compiled: 2021-09-03T13:33:43-04:00 andes-login4.olcf.ornl.gov:/gpfs/alpine/syb105/proj-shared/Personal/jmerlet/rna-seq_tools/alignment/andes/STAR-2.7.9a/source
+Sep 03 19:53:33 ..... started STAR run
+Sep 03 19:53:34 ..... loading genome
+	/gpfs/alpine/syb105/proj-shared/Personal/jmerlet/rna-seq_tools/alignment/andes/STAR-2.7.9a/source/STAR --runThreadN 21 --genomeDir /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/rna-seq_tools/alignment/ref_gens/human/GRCh38/star_index_2.7.9a --soloType CB_UMI_Simple --soloCBwhitelist /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/rna-seq_tools/alignment/bc_wl/737K-august-2016.txt --outFileNamePrefix /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/projects/mouse/data/human_ad/he/fastq/aligned/SRR11396170_1._ --readFilesIn /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/projects/mouse/data/human_ad/he/fastq/SRR11396170_2.fastq.gz /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/projects/mouse/data/human_ad/he/fastq/SRR11396170_1.fastq.gz --soloUMIfiltering MultiGeneUMI --readFilesCommand zcat
+	STAR version: 2.7.9a   compiled: 2021-09-03T13:33:43-04:00 andes-login4.olcf.ornl.gov:/gpfs/alpine/syb105/proj-shared/Personal/jmerlet/rna-seq_tools/alignment/andes/STAR-2.7.9a/source
+Sep 03 19:53:33 ..... started STAR run
+Sep 03 19:53:34 ..... loading genome
+	/gpfs/alpine/syb105/proj-shared/Personal/jmerlet/rna-seq_tools/alignment/andes/STAR-2.7.9a/source/STAR --runThreadN 21 --genomeDir /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/rna-seq_tools/alignment/ref_gens/human/GRCh38/star_index_2.7.9a --soloType CB_UMI_Simple --soloCBwhitelist /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/rna-seq_tools/alignment/bc_wl/737K-august-2016.txt --outFileNamePrefix /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/projects/mouse/data/human_ad/he/fastq/aligned/SRR11396167_1._ --readFilesIn /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/projects/mouse/data/human_ad/he/fastq/SRR11396167_2.fastq.gz /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/projects/mouse/data/human_ad/he/fastq/SRR11396167_1.fastq.gz --soloUMIfiltering MultiGeneUMI --readFilesCommand zcat
+	STAR version: 2.7.9a   compiled: 2021-09-03T13:33:43-04:00 andes-login4.olcf.ornl.gov:/gpfs/alpine/syb105/proj-shared/Personal/jmerlet/rna-seq_tools/alignment/andes/STAR-2.7.9a/source
+Sep 03 19:53:33 ..... started STAR run
+Sep 03 19:53:34 ..... loading genome
+	/gpfs/alpine/syb105/proj-shared/Personal/jmerlet/rna-seq_tools/alignment/andes/STAR-2.7.9a/source/STAR --runThreadN 21 --genomeDir /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/rna-seq_tools/alignment/ref_gens/human/GRCh38/star_index_2.7.9a --soloType CB_UMI_Simple --soloCBwhitelist /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/rna-seq_tools/alignment/bc_wl/737K-august-2016.txt --outFileNamePrefix /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/projects/mouse/data/human_ad/he/fastq/aligned/SRR11396174_1._ --readFilesIn /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/projects/mouse/data/human_ad/he/fastq/SRR11396174_2.fastq.gz /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/projects/mouse/data/human_ad/he/fastq/SRR11396174_1.fastq.gz --soloUMIfiltering MultiGeneUMI --readFilesCommand zcat
+	STAR version: 2.7.9a   compiled: 2021-09-03T13:33:43-04:00 andes-login4.olcf.ornl.gov:/gpfs/alpine/syb105/proj-shared/Personal/jmerlet/rna-seq_tools/alignment/andes/STAR-2.7.9a/source
+Sep 03 19:53:33 ..... started STAR run
+Sep 03 19:53:34 ..... loading genome
+	/gpfs/alpine/syb105/proj-shared/Personal/jmerlet/rna-seq_tools/alignment/andes/STAR-2.7.9a/source/STAR --runThreadN 21 --genomeDir /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/rna-seq_tools/alignment/ref_gens/human/GRCh38/star_index_2.7.9a --soloType CB_UMI_Simple --soloCBwhitelist /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/rna-seq_tools/alignment/bc_wl/737K-august-2016.txt --outFileNamePrefix /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/projects/mouse/data/human_ad/he/fastq/aligned/SRR11396164_1._ --readFilesIn /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/projects/mouse/data/human_ad/he/fastq/SRR11396164_2.fastq.gz /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/projects/mouse/data/human_ad/he/fastq/SRR11396164_1.fastq.gz --soloUMIfiltering MultiGeneUMI --readFilesCommand zcat
+	STAR version: 2.7.9a   compiled: 2021-09-03T13:33:43-04:00 andes-login4.olcf.ornl.gov:/gpfs/alpine/syb105/proj-shared/Personal/jmerlet/rna-seq_tools/alignment/andes/STAR-2.7.9a/source
+Sep 03 19:53:33 ..... started STAR run
+Sep 03 19:53:34 ..... loading genome
+Sep 03 19:53:33 ..... started STAR run
+Sep 03 19:53:34 ..... loading genome
+Sep 03 19:53:33 ..... started STAR run
+Sep 03 19:53:34 ..... loading genome
+	/gpfs/alpine/syb105/proj-shared/Personal/jmerlet/rna-seq_tools/alignment/andes/STAR-2.7.9a/source/STAR --runThreadN 21 --genomeDir /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/rna-seq_tools/alignment/ref_gens/human/GRCh38/star_index_2.7.9a --soloType CB_UMI_Simple --soloCBwhitelist /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/rna-seq_tools/alignment/bc_wl/737K-august-2016.txt --outFileNamePrefix /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/projects/mouse/data/human_ad/he/fastq/aligned/SRR11396161_1._ --readFilesIn /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/projects/mouse/data/human_ad/he/fastq/SRR11396161_2.fastq.gz /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/projects/mouse/data/human_ad/he/fastq/SRR11396161_1.fastq.gz --soloUMIfiltering MultiGeneUMI --readFilesCommand zcat
+	STAR version: 2.7.9a   compiled: 2021-09-03T13:33:43-04:00 andes-login4.olcf.ornl.gov:/gpfs/alpine/syb105/proj-shared/Personal/jmerlet/rna-seq_tools/alignment/andes/STAR-2.7.9a/source
+	/gpfs/alpine/syb105/proj-shared/Personal/jmerlet/rna-seq_tools/alignment/andes/STAR-2.7.9a/source/STAR --runThreadN 21 --genomeDir /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/rna-seq_tools/alignment/ref_gens/human/GRCh38/star_index_2.7.9a --soloType CB_UMI_Simple --soloCBwhitelist /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/rna-seq_tools/alignment/bc_wl/737K-august-2016.txt --outFileNamePrefix /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/projects/mouse/data/human_ad/he/fastq/aligned/SRR11396169_1._ --readFilesIn /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/projects/mouse/data/human_ad/he/fastq/SRR11396169_2.fastq.gz /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/projects/mouse/data/human_ad/he/fastq/SRR11396169_1.fastq.gz --soloUMIfiltering MultiGeneUMI --readFilesCommand zcat
+	STAR version: 2.7.9a   compiled: 2021-09-03T13:33:43-04:00 andes-login4.olcf.ornl.gov:/gpfs/alpine/syb105/proj-shared/Personal/jmerlet/rna-seq_tools/alignment/andes/STAR-2.7.9a/source
+Sep 03 19:53:33 ..... started STAR run
+Sep 03 19:53:34 ..... loading genome
+Sep 03 19:53:33 ..... started STAR run
+Sep 03 19:53:34 ..... loading genome
+Sep 03 19:53:33 ..... started STAR run
+Sep 03 19:53:34 ..... loading genome
+	/gpfs/alpine/syb105/proj-shared/Personal/jmerlet/rna-seq_tools/alignment/andes/STAR-2.7.9a/source/STAR --runThreadN 21 --genomeDir /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/rna-seq_tools/alignment/ref_gens/human/GRCh38/star_index_2.7.9a --soloType CB_UMI_Simple --soloCBwhitelist /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/rna-seq_tools/alignment/bc_wl/737K-august-2016.txt --outFileNamePrefix /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/projects/mouse/data/human_ad/he/fastq/aligned/SRR11396168_1._ --readFilesIn /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/projects/mouse/data/human_ad/he/fastq/SRR11396168_2.fastq.gz /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/projects/mouse/data/human_ad/he/fastq/SRR11396168_1.fastq.gz --soloUMIfiltering MultiGeneUMI --readFilesCommand zcat
+	STAR version: 2.7.9a   compiled: 2021-09-03T13:33:43-04:00 andes-login4.olcf.ornl.gov:/gpfs/alpine/syb105/proj-shared/Personal/jmerlet/rna-seq_tools/alignment/andes/STAR-2.7.9a/source
+	/gpfs/alpine/syb105/proj-shared/Personal/jmerlet/rna-seq_tools/alignment/andes/STAR-2.7.9a/source/STAR --runThreadN 21 --genomeDir /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/rna-seq_tools/alignment/ref_gens/human/GRCh38/star_index_2.7.9a --soloType CB_UMI_Simple --soloCBwhitelist /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/rna-seq_tools/alignment/bc_wl/737K-august-2016.txt --outFileNamePrefix /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/projects/mouse/data/human_ad/he/fastq/aligned/SRR11396172_1._ --readFilesIn /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/projects/mouse/data/human_ad/he/fastq/SRR11396172_2.fastq.gz /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/projects/mouse/data/human_ad/he/fastq/SRR11396172_1.fastq.gz --soloUMIfiltering MultiGeneUMI --readFilesCommand zcat
+	STAR version: 2.7.9a   compiled: 2021-09-03T13:33:43-04:00 andes-login4.olcf.ornl.gov:/gpfs/alpine/syb105/proj-shared/Personal/jmerlet/rna-seq_tools/alignment/andes/STAR-2.7.9a/source
+	/gpfs/alpine/syb105/proj-shared/Personal/jmerlet/rna-seq_tools/alignment/andes/STAR-2.7.9a/source/STAR --runThreadN 21 --genomeDir /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/rna-seq_tools/alignment/ref_gens/human/GRCh38/star_index_2.7.9a --soloType CB_UMI_Simple --soloCBwhitelist /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/rna-seq_tools/alignment/bc_wl/737K-august-2016.txt --outFileNamePrefix /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/projects/mouse/data/human_ad/he/fastq/aligned/SRR11396165_1._ --readFilesIn /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/projects/mouse/data/human_ad/he/fastq/SRR11396165_2.fastq.gz /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/projects/mouse/data/human_ad/he/fastq/SRR11396165_1.fastq.gz --soloUMIfiltering MultiGeneUMI --readFilesCommand zcat
+	STAR version: 2.7.9a   compiled: 2021-09-03T13:33:43-04:00 andes-login4.olcf.ornl.gov:/gpfs/alpine/syb105/proj-shared/Personal/jmerlet/rna-seq_tools/alignment/andes/STAR-2.7.9a/source
+Sep 03 19:53:33 ..... started STAR run
+Sep 03 19:53:34 ..... loading genome
+Sep 03 19:53:33 ..... started STAR run
+Sep 03 19:53:34 ..... loading genome
+Sep 03 19:53:33 ..... started STAR run
+Sep 03 19:53:34 ..... loading genome
+Sep 03 19:53:48 ..... started mapping
+Sep 03 19:53:50 ..... started mapping
+Sep 03 19:53:51 ..... started mapping
+Sep 03 19:53:52 ..... started mapping
+Sep 03 19:53:53 ..... started mapping
+Sep 03 19:53:54 ..... started mapping
+Sep 03 19:53:54 ..... started mapping
+Sep 03 19:53:55 ..... started mapping
+Sep 03 19:53:56 ..... started mapping
+Sep 03 19:53:56 ..... started mapping
+Sep 03 19:53:56 ..... started mapping
+Sep 03 19:53:56 ..... started mapping
+Sep 03 19:53:57 ..... started mapping
+Sep 03 19:53:58 ..... started mapping
+Sep 03 19:53:58 ..... started mapping
+Sep 03 19:53:58 ..... started mapping
+Sep 03 19:53:58 ..... started mapping
+Sep 03 19:56:08 ..... finished mapping
+Sep 03 19:56:09 ..... started Solo counting
+Sep 03 19:56:21 ..... finished Solo counting
+Sep 03 19:56:21 ..... finished successfully
+SRR11396171_1. (task number 12) being aligned by 12 of 17
+Sep 03 19:56:43 ..... finished mapping
+Sep 03 19:56:43 ..... started Solo counting
+Sep 03 19:56:58 ..... finished Solo counting
+Sep 03 19:56:58 ..... finished successfully
+SRR11396174_1. (task number 15) being aligned by 15 of 17
+Sep 03 19:57:07 ..... finished mapping
+Sep 03 19:57:07 ..... started Solo counting
+Sep 03 19:57:27 ..... finished Solo counting
+Sep 03 19:57:27 ..... finished successfully
+SRR11396173_1. (task number 14) being aligned by 14 of 17
+Sep 03 19:57:52 ..... finished mapping
+Sep 03 19:57:53 ..... started Solo counting
+Sep 03 19:58:25 ..... finished Solo counting
+Sep 03 19:58:25 ..... finished successfully
+SRR11396172_1. (task number 13) being aligned by 13 of 17
+Sep 03 20:00:22 ..... finished mapping
+Sep 03 20:00:22 ..... started Solo counting
+Sep 03 20:01:16 ..... finished Solo counting
+Sep 03 20:01:16 ..... finished successfully
+SRR11396175_1. (task number 16) being aligned by 16 of 17
+Sep 03 20:01:33 ..... finished mapping
+Sep 03 20:01:34 ..... started Solo counting
+Sep 03 20:01:49 ..... finished mapping
+Sep 03 20:01:51 ..... started Solo counting
+Sep 03 20:02:07 ..... finished mapping
+Sep 03 20:02:08 ..... started Solo counting
+Sep 03 20:02:20 ..... finished mapping
+Sep 03 20:02:21 ..... started Solo counting
+Sep 03 20:02:28 ..... finished mapping
+Sep 03 20:02:29 ..... started Solo counting
+Sep 03 20:02:37 ..... finished mapping
+Sep 03 20:02:38 ..... started Solo counting
+Sep 03 20:02:45 ..... finished mapping
+Sep 03 20:02:46 ..... started Solo counting
+Sep 03 20:02:47 ..... finished Solo counting
+Sep 03 20:02:47 ..... finished successfully
+SRR11396167_1. (task number 8) being aligned by 8 of 17
+Sep 03 20:02:58 ..... finished Solo counting
+Sep 03 20:02:58 ..... finished successfully
+SRR11396162_1. (task number 3) being aligned by 3 of 17
+Sep 03 20:03:09 ..... finished mapping
+Sep 03 20:03:10 ..... started Solo counting
+Sep 03 20:03:12 ..... finished Solo counting
+Sep 03 20:03:12 ..... finished successfully
+SRR11396168_1. (task number 9) being aligned by 9 of 17
+Sep 03 20:03:15 ..... finished mapping
+Sep 03 20:03:16 ..... started Solo counting
+Sep 03 20:03:30 ..... finished mapping
+Sep 03 20:03:30 ..... started Solo counting
+Sep 03 20:03:36 ..... finished Solo counting
+Sep 03 20:03:36 ..... finished successfully
+Sep 03 20:03:36 ..... finished mapping
+	/gpfs/alpine/syb105/proj-shared/Personal/jmerlet/rna-seq_tools/alignment/andes/STAR-2.7.9a/source/STAR --runThreadN 21 --genomeDir /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/rna-seq_tools/alignment/ref_gens/human/GRCh38/star_index_2.7.9a --soloType CB_UMI_Simple --soloCBwhitelist /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/rna-seq_tools/alignment/bc_wl/737K-august-2016.txt --outFileNamePrefix /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/projects/mouse/data/human_ad/he/fastq/aligned/SRR11396171_ --readFilesIn /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/projects/mouse/data/human_ad/he/fastq/umi_test/SRR11396171_2.fastq /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/projects/mouse/data/human_ad/he/fastq/umi_test/SRR11396171_1.fastq --soloUMIfiltering MultiGeneUMI --readFilesCommand zcat
+	STAR version: 2.7.9a   compiled: 2021-09-03T13:33:43-04:00 andes-login4.olcf.ornl.gov:/gpfs/alpine/syb105/proj-shared/Personal/jmerlet/rna-seq_tools/alignment/andes/STAR-2.7.9a/source
+Sep 03 20:03:36 ..... started STAR run
+Sep 03 20:03:36 ..... loading genome
+Sep 03 20:03:37 ..... started Solo counting
+Sep 03 20:03:39 ..... finished Solo counting
+Sep 03 20:03:39 ..... finished successfully
+SRR11396170_1. (task number 11) being aligned by 11 of 17
+Sep 03 20:03:44 ..... finished mapping
+Sep 03 20:03:45 ..... started mapping
+Sep 03 20:03:45 ..... started Solo counting
+Sep 03 20:03:46 ..... finished mapping
+Sep 03 20:03:46 ..... started Solo counting
+Sep 03 20:03:46 ..... finished Solo counting
+Sep 03 20:03:46 ..... finished successfully
+SRR11396159_1. (task number 0) being aligned by 0 of 17
+SRR11396171 (task number 17) being aligned by 0 of 17
+Sep 03 20:03:54 ..... finished Solo counting
+Sep 03 20:03:54 ..... finished successfully
+SRR11396160_1. (task number 1) being aligned by 1 of 17
+Sep 03 20:03:55 ..... finished Solo counting
+Sep 03 20:03:55 ..... finished successfully
+SRR11396166_1. (task number 7) being aligned by 7 of 17
+Sep 03 20:04:11 ..... finished Solo counting
+Sep 03 20:04:11 ..... finished successfully
+SRR11396163_1. (task number 4) being aligned by 4 of 17
+Sep 03 20:04:20 ..... finished Solo counting
+Sep 03 20:04:20 ..... finished successfully
+SRR11396169_1. (task number 10) being aligned by 10 of 17
+Sep 03 20:04:35 ..... finished Solo counting
+Sep 03 20:04:35 ..... finished successfully
+SRR11396165_1. (task number 6) being aligned by 6 of 17
+Sep 03 20:04:36 ..... finished Solo counting
+Sep 03 20:04:36 ..... finished successfully
+SRR11396161_1. (task number 2) being aligned by 2 of 17
+Sep 03 20:04:51 ..... finished Solo counting
+Sep 03 20:04:51 ..... finished successfully
+SRR11396164_1. (task number 5) being aligned by 5 of 17

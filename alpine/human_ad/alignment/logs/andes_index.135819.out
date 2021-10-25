@@ -1,0 +1,16 @@
+	/gpfs/alpine/syb105/proj-shared/Personal/jmerlet/rna-seq_tools/alignment/andes/STAR-2.7.9a/source/STAR --runThreadN 16 --runMode genomeGenerate --genomeDir /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/rna-seq_tools/alignment/ref_gens/mouse/cellranger/index_2.7.9a --genomeFastaFiles /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/rna-seq_tools/alignment/ref_gens/mouse/cellranger/fasta/genome.fa --sjdbGTFfile /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/rna-seq_tools/alignment/ref_gens/mouse/cellranger/annotations/genes.gtf --sjdbOverhang 149
+	STAR version: 2.7.9a   compiled: 2021-09-03T13:33:43-04:00 andes-login4.olcf.ornl.gov:/gpfs/alpine/syb105/proj-shared/Personal/jmerlet/rna-seq_tools/alignment/andes/STAR-2.7.9a/source
+Oct 07 10:42:57 ..... started STAR run
+Oct 07 10:42:57 ... starting to generate Genome files
+Oct 07 10:43:36 ..... processing annotations GTF
+Oct 07 10:44:00 ... starting to sort Suffix Array. This may take a long time...
+Oct 07 10:44:15 ... sorting Suffix Array chunks and saving them to disk...
+Oct 07 10:51:56 ... loading chunks from disk, packing SA...
+Oct 07 10:52:48 ... finished generating suffix array
+Oct 07 10:52:48 ... generating Suffix Array index
+Oct 07 10:56:46 ... completed Suffix Array index
+Oct 07 10:56:46 ..... inserting junctions into the genome indices
+Oct 07 10:59:40 ... writing Genome to disk ...
+Oct 07 10:59:41 ... writing Suffix Array to disk ...
+Oct 07 10:59:48 ... writing SAindex to disk
+Oct 07 10:59:49 ..... finished successfully

@@ -1,0 +1,103 @@
+suppressPackageStartupMessages({
+    library(DESeq2)
+    library(DropletUtils)
+    library(readr)
+    library(scran)
+    library(apeglm)
+    library(stringr)
+})
+
+matrix_dir_prefix <- '/gpfs/alpine/syb105/proj-shared/Personal/jmerlet/projects/mouse/data/human_ad/reynolds/mesenchymal_count_mtxs/relevant_samples'
+clusters_path <- '/gpfs/alpine/syb105/proj-shared/Personal/jmerlet/projects/mouse/scripts/human_ad/tsne_clustering/reynolds/clusters_20dim.tsv'
+out_dir <- '/gpfs/alpine/syb105/proj-shared/Personal/jmerlet/projects/mouse/data/human_ad/reynolds/de_results/'
+
+# create sce
+matrix_dirs <- list.dirs(path=matrix_dir_prefix, full.names = TRUE, recursive=FALSE)
+sample_names <- str_match(matrix_dirs, 'samples/(.*)$')[,2]
+
+combine_samples <- function(sample_names) {
+    barcodes <- character()
+    i <- 0
+    for (sample_name in sample_names) {
+        i <- i + 1
+        matrix_dir <- matrix_dirs[[i]]
+        bc_path <- paste0(matrix_dir, '/barcodes.tsv')
+        bc <- readLines(bc_path)
+        barcodes <- c(barcodes, paste(bc, sample_name, sep='_'))
+    }
+    sce <- read10xCounts(matrix_dirs, col.names=FALSE, type='sparse', version='3', compressed=FALSE)
+    colnames(sce) <- barcodes
+    rownames(sce) <- toupper(rowData(sce)$Symbol)
+    return(sce)
+}
+sce <- combine_samples(sample_names)
+sce <- sce[rowSums(counts(sce) > 1) >= 10, ]
+counts <- as.matrix(assay(sce))
+
+bc_to_condition_map <- list('4820STDY7388991'='control',
+                            '4820STDY7388999'='control',
+                            '4820STDY7389007'='control',
+                            'SKN8104899'='control',
+                            'SKN8105197'='control',
+                            'SKN8090527'='ad',
+                            'SKN8090531'='ad',
+                            'SKN8090537'='ad',
+                            'SKN8090541'='ad',
+                            'SKN8090549'='ad',
+                            'SKN8090553'='ad')
+
+get_condition_from_bc <- function(barcode) {
+    id <- str_match(barcode, '_(.*)$')[, 2]
+    return(bc_to_condition_map[[id]])
+}
+
+# restrict to mesenchymal cells by KNN cluster
+clusters <- read.table(clusters_path, sep='\t', header=FALSE)
+colnames(clusters) <- c('bc', 'cluster')
+mc_bcs <- clusters[clusters[ ,'cluster'] %in% c(2, 4, 5, 6, 7, 8, 9), ]['bc'][[1]]
+all_bcs <- colnames(sce)
+
+# restrict to PRRX1+ Mesenchymal cells only
+prrx1_counts <- counts['PRRX1', ]
+bcs_to_keep <- character()
+for (bc in mc_bcs) {
+    if (bc %in% names(prrx1_counts)) {
+        if (prrx1_counts[bc] > 0) {
+            bcs_to_keep <- c(bcs_to_keep, bc)
+        }
+    }
+}
+
+de_idx <- which(all_bcs %in% mc_bcs)
+all_bcs <- all_bcs[de_idx]
+de_counts <- counts[, de_idx]
+
+# create DE design columns
+conditions <- character()
+for (bc in all_bcs) {
+    conditions <- c(conditions, get_condition_from_bc(bc))
+}
+meta_data <- data.frame('condition'=conditions, row.names=all_bcs, stringsAsFactors=TRUE)
+
+# create DESeq2 data set
+dds <- DESeqDataSetFromMatrix(countData=de_counts, colData=meta_data, design= ~ condition)
+
+# remove lowly expressed genes
+keep_idx <- rowSums(counts(dds)) >= 10
+dds <- dds[keep_idx, ]
+
+# compute scran normalization
+scran_clusters <- quickCluster(dds)
+dds <- computeSumFactors(dds, clusters=scran_clusters)
+
+# Healthy vs. AD
+dds$condition <- factor(dds$condition, levels=c('control', 'ad'))
+
+start_time <- proc.time()
+dds <- DESeq(dds, useT=TRUE, minmu=1e-6, minReplicatesForReplace=Inf, parallel=FALSE)
+print(proc.time() - start_time)
+
+res <- results(dds, alpha=0.05, parallel=TRUE)
+writeLines(capture.output(summary(res)), paste0(out_dir, 'summary_healthy_vs_ad.txt'))
+ordered_res <- res[order(res$padj), ]
+write.table(as.data.frame(ordered_res), sep='\t', file=paste0(out_dir, 'table_healthy_vs_ad.tsv'))

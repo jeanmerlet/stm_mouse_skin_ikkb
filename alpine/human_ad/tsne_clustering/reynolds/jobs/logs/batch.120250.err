@@ -1,0 +1,24 @@
+Attaching SeuratObject
+Computing 2000 integration features
+Scaling features for provided objects
+Finding all pairwise anchors
+Running CCA
+Merging objects
+Finding neighborhoods
+Finding anchors
+	Found 31522 anchors
+Filtering anchors
+	Retained 1418 anchors
+Merging dataset 1 into 2
+Extracting anchors for merged samples
+Finding integration vectors
+Finding integration vector weights
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Integrating data
+Error in table.write(assay(mtx), out_path, sep = "\t", quote = FALSE,  : 
+  could not find function "table.write"
+Execution halted
+srun: error: andes25: task 0: Exited with exit code 1
+srun: Terminating job step 120250.0

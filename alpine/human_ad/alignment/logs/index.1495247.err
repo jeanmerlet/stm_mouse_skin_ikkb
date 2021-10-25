@@ -1,0 +1,1 @@
+/gpfs/alpine/syb105/proj-shared/Personal/jmerlet/rna-seq_tools/alignment/summit/STAR-2.7.9a/source/STAR: /sw/summit/gcc/9.1.0-alpha+20190716/lib64/libstdc++.so.6: version `GLIBCXX_3.4.29' not found (required by /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/rna-seq_tools/alignment/summit/STAR-2.7.9a/source/STAR)

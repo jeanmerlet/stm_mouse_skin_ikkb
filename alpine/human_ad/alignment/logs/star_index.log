@@ -1,0 +1,32 @@
+	/gpfs/alpine/syb105/proj-shared/Personal/jmerlet/rna-seq_tools/alignment/summit/STAR-2.7.9a/source/STAR --runThreadN 21 --runMode genomeGenerate --genomeDir /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/rna-seq_tools/alignment/ref_gens/human/GRCh38/star_index_2.7.9a --genomeFastaFiles /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/rna-seq_tools/alignment/ref_gens/human/GRCh38/gencode/GRCh38.primary_assembly.genome.fa --sjdbGTFfile /gpfs/alpine/syb105/proj-shared/Personal/jmerlet/rna-seq_tools/alignment/ref_gens/human/GRCh38/gencode/gencode.v34.primary_assembly.annotation.gtf
+	STAR version: 2.7.9a   compiled: 2021-09-03T10:17:13-04:00 login2:/gpfs/alpine/syb105/proj-shared/Personal/jmerlet/rna-seq_tools/alignment/summit/STAR-2.7.9a/source
+Sep 03 11:15:58 ..... started STAR run
+Sep 03 11:15:58 ... starting to generate Genome files
+Sep 03 11:17:00 ..... processing annotations GTF
+Sep 03 11:17:54 ... starting to sort Suffix Array. This may take a long time...
+Sep 03 11:18:18 ... sorting Suffix Array chunks and saving them to disk...
+Sep 03 11:34:39 ... loading chunks from disk, packing SA...
+Sep 03 11:35:45 ... finished generating suffix array
+Sep 03 11:35:45 ... generating Suffix Array index
+Sep 03 11:38:46 ... completed Suffix Array index
+Sep 03 11:38:46 ..... inserting junctions into the genome indices
+Sep 03 11:41:26 ... writing Genome to disk ...
+Sep 03 11:41:27 ... writing Suffix Array to disk ...
+Sep 03 11:41:30 ... writing SAindex to disk
+Sep 03 11:41:30 ..... finished successfully
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@batch2>
+Subject: Job 1394039: <STAR_index_GRCh38> in cluster <summit> Done
+
+Job <STAR_index_GRCh38> was submitted from host <login2> by user <jmerlet> in cluster <summit> at Fri Sep  3 11:14:06 2021
+Job was executed on host(s) <1*batch2>, in queue <batch>, as user <jmerlet> in cluster <summit> at Fri Sep  3 11:15:43 2021
+                            <42*f36n12>
+</ccs/home/jmerlet> was used as the home directory.
+</gpfs/alpine/syb105/proj-shared/Personal/jmerlet/projects/mouse/scripts/human_ad/alignment> was used as the working directory.
+Started at Fri Sep  3 11:15:43 2021
+Terminated at Fri Sep  3 11:41:32 2021
+Results reported at Fri Sep  3 11:41:32 2021
+
+The output (if any) is above this job summary.
+

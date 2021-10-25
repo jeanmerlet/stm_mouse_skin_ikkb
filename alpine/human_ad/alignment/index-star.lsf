@@ -1,0 +1,21 @@
+#!/bin/bash 
+
+#BSUB -P SYB105
+#BSUB -J STAR_index_GRCh38
+#BSUB -W 2:00
+#BSUB -o ./logs/index.%J.out
+#BSUB -e ./logs/index.%J.err
+#BSUB -nnodes 1
+
+export OMP_PROC_BIND=false
+
+PREFIX="/gpfs/alpine/syb105/proj-shared/Personal/jmerlet/rna-seq_tools/alignment"
+STAR="$PREFIX/summit/STAR-2.7.9a/source/STAR"
+DATA="$PREFIX/ref_gens/human/GRCh38"
+
+jsrun -n 1 -a 1 -c 21 -b packed:21 $STAR \
+--runThreadN 21 \
+--runMode genomeGenerate \
+--genomeDir $DATA/star_index_2.7.9a \
+--genomeFastaFiles $DATA/gencode/GRCh38.primary_assembly.genome.fa \
+--sjdbGTFfile $DATA/gencode/gencode.v34.primary_assembly.annotation.gtf

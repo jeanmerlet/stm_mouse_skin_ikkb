@@ -1,0 +1,63 @@
+Traceback (most recent call last):
+  File "/gpfs/alpine/syb105/proj-shared/Personal/jmerlet/projects/mouse/scripts/human_ad/alignment/mpi_star_align_andes.py", line 1, in <module>
+    from mpi4py import MPI
+ModuleNotFoundError: No module named 'mpi4py'
+srun: error: andes65: task 29: Exited with exit code 1
+srun: Terminating job step 120956.0
+slurmstepd: error: *** STEP 120956.0 ON andes5 CANCELLED AT 2021-09-10T18:25:23 ***
+srun: error: andes60: task 26: Terminated
+srun: error: andes99: task 55: Terminated
+srun: error: andes58: task 24: Terminated
+srun: error: andes47: task 17: Terminated
+srun: error: andes38: task 13: Terminated
+srun: error: andes46: task 16: Terminated
+srun: error: andes8: task 3: Terminated
+srun: error: andes82: task 40: Terminated
+srun: error: andes54: task 21: Terminated
+srun: error: andes88: task 46: Terminated
+srun: error: andes34: task 11: Terminated
+srun: error: andes50: task 18: Terminated
+srun: error: andes89: task 47: Terminated
+srun: error: andes62: task 28: Terminated
+srun: error: andes59: task 25: Terminated
+srun: error: andes40: task 14: Terminated
+srun: error: andes6: task 1: Terminated
+srun: error: andes5: task 0: Terminated
+srun: error: andes71: task 30: Terminated
+srun: error: andes80: task 38: Terminated
+srun: error: andes16: task 4: Terminated
+srun: error: andes96: task 52: Terminated
+srun: error: andes36: task 12: Terminated
+srun: error: andes73: task 32: Terminated
+srun: error: andes74: task 33: Terminated
+srun: error: andes56: task 23: Terminated
+srun: error: andes83: task 41: Terminated
+srun: error: andes61: task 27: Terminated
+srun: error: andes75: task 34: Terminated
+srun: error: andes86: task 44: Terminated
+srun: error: andes72: task 31: Terminated
+srun: error: andes22: task 8: Terminated
+srun: error: andes21: task 7: Terminated
+srun: error: andes7: task 2: Terminated
+srun: error: andes98: task 54: Terminated
+srun: error: andes92: task 48: Terminated
+srun: error: andes53: task 20: Terminated
+srun: error: andes94: task 50: Terminated
+srun: error: andes41: task 15: Terminated
+srun: error: andes31: task 10: Terminated
+srun: error: andes52: task 19: Terminated
+srun: error: andes87: task 45: Terminated
+srun: error: andes84: task 42: Terminated
+srun: error: andes20: task 6: Terminated
+srun: error: andes55: task 22: Terminated
+srun: error: andes85: task 43: Terminated
+srun: error: andes81: task 39: Terminated
+srun: error: andes77: task 36: Terminated
+srun: error: andes78: task 37: Terminated
+srun: error: andes18: task 5: Terminated
+srun: error: andes23: task 9: Terminated
+srun: error: andes76: task 35: Terminated
+srun: error: andes97: task 53: Terminated
+srun: error: andes95: task 51: Terminated
+srun: error: andes93: task 49: Terminated
+srun: Force Terminated job step 120956.0

@@ -1,0 +1,29 @@
+Module(tensorflow)
+[1] "done setting up marker genes"
+character(0)
+[1] "starting fit..."
+[1] "done fitting"
+     user    system   elapsed 
+12350.209  2704.936   606.492 
+A cellassign fit for 1012 cells, 60 genes, 26 cell types with 0 covariates
+            To access cell types, call celltypes(x)
+            To access cell type probabilities, call cellprobs(x)
+
+character(0)
+[1] "starting fit..."
+[1] "done fitting"
+     user    system   elapsed 
+13031.891  2736.800   651.282 
+A cellassign fit for 941 cells, 61 genes, 26 cell types with 0 covariates
+            To access cell types, call celltypes(x)
+            To access cell type probabilities, call cellprobs(x)
+
+character(0)
+[1] "starting fit..."
+[1] "done fitting"
+     user    system   elapsed 
+29959.451  4805.490  1326.941 
+A cellassign fit for 2473 cells, 61 genes, 26 cell types with 0 covariates
+            To access cell types, call celltypes(x)
+            To access cell type probabilities, call cellprobs(x)
+

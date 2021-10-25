@@ -1,0 +1,15 @@
+converting counts to integer mode
+  it appears that the last variable in the design formula, 'condition',
+  has a factor level, 'control', which is not the reference level. we recommend
+  to use factor(...,levels=...) or relevel() to set this as the reference level
+  before proceeding. for more information, please see the 'Note on factor levels'
+  in vignette('DESeq2').
+using pre-existing size factors
+estimating dispersions
+gene-wise dispersion estimates
+mean-dispersion relationship
+final dispersion estimates
+fitting model and testing
+slurmstepd: error: *** STEP 121151.0 ON andes25 CANCELLED AT 2021-09-11T03:41:47 DUE TO TIME LIMIT ***
+slurmstepd: error: *** JOB 121151 ON andes25 CANCELLED AT 2021-09-11T03:41:47 DUE TO TIME LIMIT ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.

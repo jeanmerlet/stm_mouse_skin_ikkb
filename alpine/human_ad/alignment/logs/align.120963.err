@@ -1,0 +1,13 @@
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 120963.0 ON andes46 CANCELLED AT 2021-09-10T19:56:27 ***
+slurmstepd: error: *** JOB 120963 ON andes46 CANCELLED AT 2021-09-10T19:56:27 ***
+srun: error: andes47: task 1: Terminated
+srun: Terminating job step 120963.0
+srun: error: andes55: task 6: Terminated
+srun: error: andes87: task 29: Terminated
+srun: error: andes104: task 44: Terminated
+srun: error: andes54: task 5: Terminated
+srun: error: andes50: task 2: Terminated
+srun: error: andes65: task 13: Terminated
+srun: error: andes53: task 4: Terminated
+srun: error: andes76: task 19: Terminated

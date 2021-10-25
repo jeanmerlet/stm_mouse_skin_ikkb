@@ -1,0 +1,112 @@
+
+EXITING because of FATAL ERROR in input read file: the total length of barcode sequence is 151 not equal to expected 26
+Read ID=@1:1101:4978:1000 ;  Sequence=NGCCCTACACGAGAGTTTCCTCCGAGTTTCTTATATGCATCGCACCTGAAACAAGCTAACATGACTAACACCCTTAATTCCATCCACCCTCCTCTCCCTAGGAGGCCTGCCCCCGCTAACCGGCTTTTTGCCCAAATGGGCCATTATCGAA
+SOLUTION: check the formatting of input read files.
+If UMI+CB length is not equal to the barcode read length, specify barcode read length with --soloBarcodeReadLength
+To avoid checking of barcode read length, specify --soloBarcodeReadLength 0
+Sep 05 17:06:41 ...... FATAL ERROR, exiting
+
+EXITING because of FATAL ERROR in input read file: the total length of barcode sequence is 151 not equal to expected 26
+Read ID=@2:1101:1108:1000 ;  Sequence=NTACCCATCACTCTTAGGGTCACGGCTTTCTTATATGGGGCTTTCTGGTCTCGGCCGCAGAAGCGAGATGACGAAGGGAACGTCATCGTTTGGAAAGCGTCGCAATAAGACGCACACGTTGTGCCGCCGCTGTGGCTCTAAGGCCTACCAC
+SOLUTION: check the formatting of input read files.
+If UMI+CB length is not equal to the barcode read length, specify barcode read length with --soloBarcodeReadLength
+To avoid checking of barcode read length, specify --soloBarcodeReadLength 0
+Sep 05 17:06:41 ...... FATAL ERROR, exiting
+
+EXITING because of FATAL ERROR in input read file: the total length of barcode sequence is 151 not equal to expected 26
+Read ID=@1:1101:3061:1000 ;  Sequence=NACAGTATCCATGCTCGTTAGGGTTGTATCTTATATCATGCTTTTCGAGCTTTTCCACCAGGCTGGGCCAGTAATAAAGGTGAAAATTCCAAAAGATAAGGATGGTAAACCAAAGCAGTTTGCGTTTGTGAATTTCAAACATGAAGTGTCT
+SOLUTION: check the formatting of input read files.
+If UMI+CB length is not equal to the barcode read length, specify barcode read length with --soloBarcodeReadLength
+To avoid checking of barcode read length, specify --soloBarcodeReadLength 0
+Sep 05 17:06:45 ...... FATAL ERROR, exiting
+
+EXITING because of FATAL ERROR in input read file: the total length of barcode sequence is 151 not equal to expected 26
+Read ID=@1:1101:1072:1000 ;  Sequence=NGCCGATCAGGGATTGGACCCTGGATAATCTGAGCTGAGGGTTGAGGAGAGGCTCCAGACCCGCACGCCGCGCGCACAGAGCTCTCAGCGCCGCTCCCAGCCACAGCCTCCCGCGCCTCGCTCAGCTCCAACATGGCAAAAATCTCCAGCC
+SOLUTION: check the formatting of input read files.
+If UMI+CB length is not equal to the barcode read length, specify barcode read length with --soloBarcodeReadLength
+To avoid checking of barcode read length, specify --soloBarcodeReadLength 0
+Sep 05 17:06:46 ...... FATAL ERROR, exiting
+
+EXITING because of FATAL ERROR in input read file: the total length of barcode sequence is 151 not equal to expected 26
+Read ID=@1:1101:2175:1000 ;  Sequence=NGTATTCCAGGAACGTGCGACCTCAGAATCTTATCTGAGGGCTTTGGTGACTCTAGATAACCTCGGGCCGATCGCACGCCCCCCGTGGCAGCGACGACCCATTCGAACGTCTGCCCTATCAACTTTCGATGGTAGTCGCCGTGCCTACCAT
+SOLUTION: check the formatting of input read files.
+If UMI+CB length is not equal to the barcode read length, specify barcode read length with --soloBarcodeReadLength
+To avoid checking of barcode read length, specify --soloBarcodeReadLength 0
+Sep 05 17:06:46 ...... FATAL ERROR, exiting
+
+EXITING because of FATAL ERROR in input read file: the total length of barcode sequence is 151 not equal to expected 26
+Read ID=@1:1101:2446:1000 ;  Sequence=NGGCTGGCAACGATCTTAGCATCAGAGTTCTTCTATGTTGAGGATTCCGGACAACGCCTGGTTCCTCTTGGGTCCTTCCGGCGTCGCCGGAGTGAATTGATCCGGGAGTTGAAGAGGGCTGCAAGGTGGGAAGTGAAGTCAGTGCCTCAGT
+SOLUTION: check the formatting of input read files.
+If UMI+CB length is not equal to the barcode read length, specify barcode read length with --soloBarcodeReadLength
+To avoid checking of barcode read length, specify --soloBarcodeReadLength 0
+Sep 05 17:06:47 ...... FATAL ERROR, exiting
+
+EXITING because of FATAL ERROR in input read file: the total length of barcode sequence is 151 not equal to expected 26
+Read ID=@2:1101:1344:1000 ;  Sequence=NACAGGCTCCTTGACCCGGACCTTTCTGTCTTATATGGGACTGTTCCAGAGCTGTAAGTGTAGAGCTTTCTCTTTAGACATCCTTGCCAACTCTTGCCACCTCTGGGCTGGTCCTTAGGAATGACTTTCCTTGCCTGGCCTGTCCTTTCTC
+SOLUTION: check the formatting of input read files.
+If UMI+CB length is not equal to the barcode read length, specify barcode read length with --soloBarcodeReadLength
+To avoid checking of barcode read length, specify --soloBarcodeReadLength 0
+Sep 05 17:06:48 ...... FATAL ERROR, exiting
+
+EXITING because of FATAL ERROR in input read file: the total length of barcode sequence is 151 not equal to expected 26
+Read ID=@2:1101:1054:1000 ;  Sequence=NCCTTTAAGTTTCAGCTTTGCAACCATACTCCCCCCGGAACCCAAAGACTTTGGTTTCCCGGAAGCTGCCCGGCGGGTCATGGGAATAACGCCGCCGCATCGCCGGTCGGCATCGTTTATGGTCGGAACTACGACGGTATCTGATCGTCTT
+SOLUTION: check the formatting of input read files.
+If UMI+CB length is not equal to the barcode read length, specify barcode read length with --soloBarcodeReadLength
+To avoid checking of barcode read length, specify --soloBarcodeReadLength 0
+Sep 05 17:06:50 ...... FATAL ERROR, exiting
+
+EXITING because of FATAL ERROR in input read file: the total length of barcode sequence is 151 not equal to expected 26
+Read ID=@2:1101:4164:1000 ;  Sequence=NGCATACAGACTGTAACCCCGGCTCGTGTTTATATGGGTAACAAATCTATGTGAGAGAAGGCAAGAAAATCCTCCTCTATTCACACTGAATGACAGGAAAAGATGTCACTTAAGAAAGTAAACAGAGCAGGGCCAAATTTAATCTAACTTT
+SOLUTION: check the formatting of input read files.
+If UMI+CB length is not equal to the barcode read length, specify barcode read length with --soloBarcodeReadLength
+To avoid checking of barcode read length, specify --soloBarcodeReadLength 0
+Sep 05 17:06:50 ...... FATAL ERROR, exiting
+
+EXITING because of FATAL ERROR in input read file: the total length of barcode sequence is 151 not equal to expected 26
+Read ID=@1:1101:4399:1000 ;  Sequence=NGCACCTTCGGATGTTACTTTTTTTGACTCTTATATCAACTTTTCCGCCCGCTCCCCCCTCCCCCCGAGCGCCGCTCCGGCTGCACCGCGCTCGCTCCGAGTTTCAGGCTCGTGCTAAGCTAGCGCCGTCGTCGTCTCCCTTCAGTCGCCA
+SOLUTION: check the formatting of input read files.
+If UMI+CB length is not equal to the barcode read length, specify barcode read length with --soloBarcodeReadLength
+To avoid checking of barcode read length, specify --soloBarcodeReadLength 0
+Sep 05 17:06:50 ...... FATAL ERROR, exiting
+
+EXITING because of FATAL ERROR in input read file: the total length of barcode sequence is 151 not equal to expected 26
+Read ID=@1:1101:1090:1000 ;  Sequence=NACACGTTCAGTCCCTACGGCCGACGCGTCTGCGCTCCCGTGCTCCAATCATAGGAGAATATGCTGGAGAGGTTGTGAGATTTGTTGGTGGCATTGGCCTGTTCTTCAGTTTTACAGAGATCCTGGGTGTTTGGCTGACCTACAGATACAG
+SOLUTION: check the formatting of input read files.
+If UMI+CB length is not equal to the barcode read length, specify barcode read length with --soloBarcodeReadLength
+To avoid checking of barcode read length, specify --soloBarcodeReadLength 0
+Sep 05 17:06:50 ...... FATAL ERROR, exiting
+
+EXITING because of FATAL ERROR in input read file: the total length of barcode sequence is 151 not equal to expected 26
+Read ID=@2:1101:1579:1000 ;  Sequence=NAACCAAAGCACCGTCCCAATTGTGGTTTCTTATATGGGGACACAAACTTTCAGAGACAGCAGAGCACACAAGCTTCTAGGACAAGAGCCAGGAAGAAACCACCGGAAGGAACCATCTCACTGTGTGTAAACATGACTTCCAAGCTGGCCG
+SOLUTION: check the formatting of input read files.
+If UMI+CB length is not equal to the barcode read length, specify barcode read length with --soloBarcodeReadLength
+To avoid checking of barcode read length, specify --soloBarcodeReadLength 0
+Sep 05 17:06:51 ...... FATAL ERROR, exiting
+
+EXITING because of FATAL ERROR in input read file: the total length of barcode sequence is 151 not equal to expected 26
+Read ID=@1:1101:2573:1000 ;  Sequence=NTTAGGAAGATGTGGCGCGACAAACGATTCTTATCTGCGGAGTCCAGATCAAAAATGGCGGTAGTTGGTGTGTCCTCGGTTTCTCGGCTGCTGGGTCGGTCCCGCCCACAGCTGGGGCGGCCTATGTCGAGTGGCGCCCATGGCGAAGAGG
+SOLUTION: check the formatting of input read files.
+If UMI+CB length is not equal to the barcode read length, specify barcode read length with --soloBarcodeReadLength
+To avoid checking of barcode read length, specify --soloBarcodeReadLength 0
+Sep 05 17:06:51 ...... FATAL ERROR, exiting
+
+EXITING because of FATAL ERROR in input read file: the total length of barcode sequence is 151 not equal to expected 26
+Read ID=@2:1101:1542:1000 ;  Sequence=NGAATAGCATTGGGCCTTTCGGCTGTGGTCTGATATGGGGGAGACTCGGCCATGCTACGCGCGCTGAGCCGCCTGGGCGCGGGGACCCCATGCAGGCCCCGGGCCCCTCTGGTGCTGCCAGCGCGCGGCCGCAAGACCCGCCACGACCCGC
+SOLUTION: check the formatting of input read files.
+If UMI+CB length is not equal to the barcode read length, specify barcode read length with --soloBarcodeReadLength
+To avoid checking of barcode read length, specify --soloBarcodeReadLength 0
+Sep 05 17:06:52 ...... FATAL ERROR, exiting
+
+EXITING because of FATAL ERROR in input read file: the total length of barcode sequence is 151 not equal to expected 26
+Read ID=@2:1101:1181:1000 ;  Sequence=NGCGTGGAGTGTTGAATTTGGGTGTCTTTCTTATATGGGGCTCTTCCCTTTTGCGGCCATCACCGAAGCGGGAGCGGCCAAAATGAAGTTTAATCCCTTTGTGACTTCCGACCGAAGCAAGAATCGCAAAAGGCATTTCAATGCACCTTCC
+SOLUTION: check the formatting of input read files.
+If UMI+CB length is not equal to the barcode read length, specify barcode read length with --soloBarcodeReadLength
+To avoid checking of barcode read length, specify --soloBarcodeReadLength 0
+Sep 05 17:06:52 ...... FATAL ERROR, exiting
+
+EXITING because of FATAL ERROR in input read file: the total length of barcode sequence is 151 not equal to expected 26
+Read ID=@2:1101:1904:1000 ;  Sequence=NTGTTAGAGCGCCTTGTGCTGCCTCTTTTCTGATATGGGGCCCGGTTTCTATAAATTGAGCCCGCAGCCTCCCGCTTCGCTCTCTGCTCCTCCTGTTCGACAGTCAGCCGCATCTTCTTTTGCGTCGCCAGCCGAGCCACATCGCTGAGAC
+SOLUTION: check the formatting of input read files.
+If UMI+CB length is not equal to the barcode read length, specify barcode read length with --soloBarcodeReadLength
+To avoid checking of barcode read length, specify --soloBarcodeReadLength 0
+Sep 05 17:06:52 ...... FATAL ERROR, exiting

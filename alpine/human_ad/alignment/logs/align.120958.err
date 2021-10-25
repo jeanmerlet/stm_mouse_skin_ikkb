@@ -1,0 +1,26 @@
+Traceback (most recent call last):
+  File "/gpfs/alpine/syb105/proj-shared/Personal/jmerlet/projects/mouse/scripts/human_ad/alignment/mpi_star_align_andes.py", line 1, in <module>
+    from mpi4py import MPI
+ModuleNotFoundError: No module named 'mpi4py'
+Traceback (most recent call last):
+  File "/gpfs/alpine/syb105/proj-shared/Personal/jmerlet/projects/mouse/scripts/human_ad/alignment/mpi_star_align_andes.py", line 1, in <module>
+    from mpi4py import MPI
+ModuleNotFoundError: No module named 'mpi4py'
+srun: error: andes6: task 0: Exited with exit code 1
+srun: Terminating job step 120958.0
+srun: error: andes20: task 5: Terminated
+srun: error: andes7: task 1: Terminated
+srun: error: andes36: task 11: Exited with exit code 1
+srun: error: andes46: task 15: Terminated
+srun: error: andes34: task 10: Terminated
+srun: error: andes41: task 14: Terminated
+srun: error: andes21: task 6: Terminated
+srun: error: andes23: task 8: Terminated
+srun: error: andes40: task 13: Terminated
+srun: error: andes31: task 9: Terminated
+srun: error: andes18: task 4: Terminated
+srun: error: andes22: task 7: Terminated
+srun: error: andes16: task 3: Terminated
+srun: error: andes8: task 2: Terminated
+srun: error: andes38: task 12: Terminated
+srun: Force Terminated job step 120958.0

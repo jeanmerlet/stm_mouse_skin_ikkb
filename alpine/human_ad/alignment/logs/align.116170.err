@@ -1,0 +1,15 @@
+srun: Warning: can't run 1 processes on 17 nodes, setting nnodes to 1
+Traceback (most recent call last):
+  File "/gpfs/alpine/syb105/proj-shared/Personal/jmerlet/projects/mouse/scripts/human_ad/alignment/mpi_star_align_summit.py", line 51, in <module>
+    sc_star_align(fastq_path1, fastq_path2, prefix)
+  File "/gpfs/alpine/syb105/proj-shared/Personal/jmerlet/projects/mouse/scripts/human_ad/alignment/mpi_star_align_summit.py", line 15, in sc_star_align
+    out_prefix, '--readFilesIn', fastq2, fastq1, '--soloUMIfiltering', 'MultiGeneUMI', '--readFilesCommand', 'zcat'])
+  File "/sw/andes/python/3.7/anaconda-base/lib/python3.7/subprocess.py", line 488, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/sw/andes/python/3.7/anaconda-base/lib/python3.7/subprocess.py", line 800, in __init__
+    restore_signals, start_new_session)
+  File "/sw/andes/python/3.7/anaconda-base/lib/python3.7/subprocess.py", line 1551, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+OSError: [Errno 8] Exec format error: '/gpfs/alpine/syb105/proj-shared/Personal/jmerlet/rna-seq_tools/alignment/summit/STAR-2.7.9a/source/STAR'
+srun: error: andes626: task 0: Exited with exit code 1
+srun: Terminating job step 116170.0
